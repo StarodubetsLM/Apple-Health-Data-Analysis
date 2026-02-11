@@ -40,3 +40,8 @@ The Apple Health data was exported in XML format, which required significant pre
 :black_small_square: Developed DAX measures for totals, averages, and trend comparisons
 
 :black_small_square: Working with XML strengthened my data transformation and data modeling skills.
+
+## Project Overview
+![Screenshot_1829](https://github.com/user-attachments/assets/6aadf52b-8bb5-4d14-a745-6131111dfe5a)
+![Screenshot_1830](https://github.com/user-attachments/assets/d4980a38-4134-41a7-8ae3-97ed979ee407)
+
