@@ -9,4 +9,15 @@ The dashboard explores:
 - Correlation between step count and health metrics
 
 The goal of this project was to practice data modeling, DAX measures, and analytical storytelling.
+## 🗂 Dataset
+
+The dataset contains daily aggregated values from 2021–2022:
+
+- Step Count
+- Active Energy Burned
+- Distance
+- Resting Heart Rate
+- Walking Heart Rate
+
+All metrics were pre-aggregated at daily level.
 
