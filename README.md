@@ -11,7 +11,7 @@ The dashboard explores:
 The goal of this project was to practice data modeling, DAX measures, and analytical storytelling.
 ## 🗂 Dataset
 
-The dataset contains daily aggregated values from 2021–2022:
+The dataset contains daily aggregated values from 2021–2025:
 
 - Step Count
 - Active Energy Burned
