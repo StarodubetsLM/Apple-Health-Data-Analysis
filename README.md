@@ -28,5 +28,7 @@ The dashboard follows a star schema structure:
 - Dim_Date (date dimension)
 
 A one-to-many relationship ensures correct filtering and aggregation.
-![Model](https://github.com/user-attachments/assets/de78778f-cac0-4a81-8a8d-d6d61e1ac5fc)
+
+![Model](https://github.com/user-attachments/assets/88f37d74-5fa7-4e36-8fab-1aeb24f3f4b1)
+
 
