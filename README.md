@@ -43,3 +43,18 @@ It includes:
 - Time-based analysis
 
 ![Screenshot_1829](https://github.com/user-attachments/assets/461fa855-7a68-4121-8432-9245b465d2cf)
+
+## 🔎 Page 2: Patterns & Relationships
+
+This page investigates behavioral patterns and metric relationships.
+
+Key insights:
+
+- Step count shows strong positive correlation with active calories (0.89).
+- Step count shows weak correlation with resting heart rate (0.15).
+- Activity levels differ between weekdays and weekends.
+
+These findings highlight the difference between short-term activity effects and longer-term physiological indicators.
+
+![Screenshot_1830](https://github.com/user-attachments/assets/942de64c-6cea-44be-8e70-8014e64259fb)
+
