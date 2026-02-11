@@ -20,4 +20,13 @@ The dataset contains daily aggregated values from 2021–2025:
 - Walking Heart Rate
 
 All metrics were pre-aggregated at daily level.
+## 🧱 Data Model
+
+The dashboard follows a star schema structure:
+
+- Fact_Activity (daily metrics)
+- Dim_Date (date dimension)
+
+A one-to-many relationship ensures correct filtering and aggregation.
+![Model](https://github.com/user-attachments/assets/de78778f-cac0-4a81-8a8d-d6d61e1ac5fc)
 
