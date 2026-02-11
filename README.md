@@ -31,4 +31,15 @@ A one-to-many relationship ensures correct filtering and aggregation.
 
 ![Model](https://github.com/user-attachments/assets/88f37d74-5fa7-4e36-8fab-1aeb24f3f4b1)
 
+## 📈 Page 1: Activity Overview
 
+This page provides a high-level summary of overall activity levels and trends over time.
+
+It includes:
+- Main KPI metrics
+- Average daily steps
+- Distance trends
+- Walking and resting heart trends
+- Time-based analysis
+
+![Screenshot_1829](https://github.com/user-attachments/assets/461fa855-7a68-4121-8432-9245b465d2cf)
