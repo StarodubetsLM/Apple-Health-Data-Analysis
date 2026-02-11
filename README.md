@@ -1,7 +1,7 @@
 # 🏃‍♀️ Personal Activity Analysis Dashboard (Power BI)
 ## 📊 Project Overview
 
-This Power BI project analyzes personal physical activity data extracted from Apple Health. 
+This Power BI project analyzes personal activity data extracted from Apple Health. 
 
 The dashboard explores:
 - Daily activity trends
