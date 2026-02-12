@@ -58,19 +58,12 @@ These findings highlight the difference between short-term activity effects and 
 
 ![Screenshot_1830](https://github.com/user-attachments/assets/942de64c-6cea-44be-8e70-8014e64259fb)
 
+![Animation](https://github.com/user-attachments/assets/7b1d0e84-f6c6-4b75-b5c1-a9a148e9fbb5)
+
+
+
 This project demonstrates how structured data modeling and DAX calculations can transform simple personal activity data into meaningful analytical insights.
 
-Through proper use of a star schema, calculated measures, and correlation analysis, I was able to validate expected relationships (strong link between steps and calories) and identify weaker associations (limited short-term impact of steps on resting heart rate).
+Through the proper use of a star schema, calculated measures, and correlation analysis, I was able to validate expected relationships (a strong link between steps and calories) and identify weaker associations (a limited short-term impact of steps on resting heart rate).
 
-Beyond visualization, this project strengthened my understanding of:
-
-Filter context and aggregation levels in DAX
-
-The importance of model structure in Power BI
-
-The difference between descriptive trends and statistical relationships
-
-How to communicate insights clearly through dashboard design
-
-Overall, this project reflects my ability to combine technical skills with analytical thinking to explore real-world data and extract actionable insights.
 
