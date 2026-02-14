@@ -31,7 +31,7 @@ A one-to-many relationship ensures correct filtering and aggregation.
 
 ![Model](https://github.com/user-attachments/assets/f551fc92-ae85-488c-8efd-86238085dede)
 
-To enhance report interactivity and improve user experience, I implemented a dynamic metric selection mechanism that allows users to switch between key health indicators. This eliminates the need for multiple duplicated visuals and enables a flexible analytical view using a single chart.
+To enhance report interactivity and improve user experience, I implemented a dynamic metric selection mechanism that allows switching between key indicators. This eliminates the need for multiple duplicated visuals and enables a flexible analytical view using a single chart.
 
 A parameter table was created using DATATABLE (not related to fact tables, used exclusively to drive a slicer):
 
@@ -58,7 +58,7 @@ This page investigates behavioral patterns and metric relationships.
 
 Key insights:
 
-- Step count shows strong positive correlation with active calories (0.89).
+- Step count shows a strong positive correlation with active calories (0.89).
 - Step count shows weak correlation with resting heart rate (0.15).
 - Activity levels differ between weekdays and weekends.
 
