@@ -54,6 +54,18 @@ These findings highlight the difference between short-term activity effects and 
 
 ![Screenshot_1839](https://github.com/user-attachments/assets/7f7921ac-6d43-43a1-8afb-ed31092e9b6b)
 
+To enhance report interactivity and improve user experience, I implemented a dynamic metric selection mechanism that allows users to switch between key health indicators. This eliminates the need for multiple duplicated visuals and enables a flexible analytical view using a single chart.
+
+A parameter table was created using DATATABLE (not related to fact tables, used exclusively to drive a slicer):
+
+![Screenshot_3](https://github.com/user-attachments/assets/f5898812-3d60-4de9-bed7-aae9d5ae3a30)
+
+
+Dynamic Measure Using SWITCH (dynamically adjusts calculation logic based on slicer selection):
+
+
+![Screenshot_2](https://github.com/user-attachments/assets/4558a314-ab74-4293-8587-f49babb2599b)
+
 
 
 This project demonstrates how structured data modeling and DAX calculations can transform simple personal activity data into meaningful analytical insights.
