@@ -29,20 +29,15 @@ The dashboard follows a star schema structure:
 
 A one-to-many relationship ensures correct filtering and aggregation.
 
-![Model](https://github.com/user-attachments/assets/88f37d74-5fa7-4e36-8fab-1aeb24f3f4b1)
+![Model](https://github.com/user-attachments/assets/f551fc92-ae85-488c-8efd-86238085dede)
+
 
 ## 📈 Page 1: Activity Overview
 
 This page provides a high-level summary of overall activity levels and trends over time.
 
-It includes:
-- Main KPI metrics
-- Average daily steps
-- Distance trends
-- Walking and resting heart trends
-- Time-based analysis
+![Screenshot_1](https://github.com/user-attachments/assets/f3faa22f-afca-477a-959a-aa61ee23c514)
 
-![Screenshot_1829](https://github.com/user-attachments/assets/461fa855-7a68-4121-8432-9245b465d2cf)
 
 ## 🔎 Page 2: Patterns & Relationships
 
@@ -56,9 +51,8 @@ Key insights:
 
 These findings highlight the difference between short-term activity effects and longer-term physiological indicators.
 
-![Screenshot_1830](https://github.com/user-attachments/assets/942de64c-6cea-44be-8e70-8014e64259fb)
 
-![Animation](https://github.com/user-attachments/assets/7b1d0e84-f6c6-4b75-b5c1-a9a148e9fbb5)
+![Screenshot_1839](https://github.com/user-attachments/assets/7f7921ac-6d43-43a1-8afb-ed31092e9b6b)
 
 
 
