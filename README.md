@@ -11,15 +11,30 @@ The dashboard explores:
 The goal of this project was to practice data modeling, DAX measures, and analytical storytelling.
 ## 🗂 Dataset
 
-The dataset contains daily aggregated values from 2021–2025:
+Source Data – Apple Health Export (export.xml)
 
-- Step Count
-- Active Energy Burned
-- Distance
-- Resting Heart Rate
-- Walking Heart Rate
+The raw XML file is highly nested and not analysis-ready. Therefore, it required parsing, cleaning, and transformation before it could be used in Power BI.
 
-All metrics were pre-aggregated at daily level.
+The data preparation process included:
+
+1. XML parsing
+- Extracting relevant <Record> elements
+- Filtering only selected health metrics (e.g., steps, calories, distance)
+
+2. Data cleaning
+
+- Converting date-time fields to proper datetime format
+- Removing duplicates
+- Handling missing values
+- Standardizing units
+
+3. Aggregation
+
+- Aggregating granular records (minute/hour level) into daily summaries
+- Creating calculated metrics where necessary
+
+The final result is a structured analytical model with one row per day granularity optimized for reporting.
+
 ## 🧱 Data Model
 
 The dashboard follows a star schema structure:
@@ -30,20 +45,6 @@ The dashboard follows a star schema structure:
 A one-to-many relationship ensures correct filtering and aggregation.
 
 ![Model](https://github.com/user-attachments/assets/f551fc92-ae85-488c-8efd-86238085dede)
-
-To enhance report interactivity and improve user experience, I implemented a dynamic metric selection mechanism that allows switching between key indicators. This eliminates the need for multiple duplicated visuals and enables a flexible analytical view using a single chart.
-
-A parameter table was created using DATATABLE (not related to fact tables, used exclusively to drive a slicer):
-
-![Screenshot_3](https://github.com/user-attachments/assets/f5898812-3d60-4de9-bed7-aae9d5ae3a30)
-
-
-Dynamic Measure Using SWITCH (dynamically adjusts calculation logic based on slicer selection):
-
-
-![Screenshot_2](https://github.com/user-attachments/assets/4558a314-ab74-4293-8587-f49babb2599b)
-
-
 
 ## 📈 Page 1: Activity Overview
 
@@ -66,6 +67,21 @@ These findings highlight the difference between short-term activity effects and 
 
 
 ![Screenshot_1839](https://github.com/user-attachments/assets/7f7921ac-6d43-43a1-8afb-ed31092e9b6b)
+
+To enhance report interactivity and improve user experience, I implemented a dynamic metric selection mechanism that allows switching between key indicators. This eliminates the need for multiple duplicated visuals and enables a flexible analytical view using a single chart.
+
+A parameter table was created using DATATABLE (not related to fact tables, used exclusively to drive a slicer):
+
+![Screenshot_3](https://github.com/user-attachments/assets/f5898812-3d60-4de9-bed7-aae9d5ae3a30)
+
+
+Dynamic Measure Using SWITCH (dynamically adjusts calculation logic based on slicer selection):
+
+
+![Screenshot_2](https://github.com/user-attachments/assets/4558a314-ab74-4293-8587-f49babb2599b)
+
+
+
 
 ![apple_health_analysis](https://github.com/user-attachments/assets/6ebad1c3-38ea-42f5-acc8-b370086ec10e)
 
