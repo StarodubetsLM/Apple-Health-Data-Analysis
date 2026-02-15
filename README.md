@@ -67,6 +67,7 @@ These findings highlight the difference between short-term activity effects and 
 
 ![Screenshot_1839](https://github.com/user-attachments/assets/7f7921ac-6d43-43a1-8afb-ed31092e9b6b)
 
+![apple_health_analysis](https://github.com/user-attachments/assets/6ebad1c3-38ea-42f5-acc8-b370086ec10e)
 
 
 This project demonstrates how structured data modeling and DAX calculations can transform simple personal activity data into meaningful analytical insights.
