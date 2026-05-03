@@ -1,9 +1,9 @@
-# 🏃‍♀️ Personal Activity Analysis Dashboard (Power BI)
+# 🏃‍♀️ Personal Activity Analysis (Power BI)
 ## 📊 Project Overview
 
 This Power BI project analyzes personal activity data extracted from Apple Health. 
 
-The dashboard explores:
+The report explores:
 - Daily activity trends
 - Behavioral patterns (weekdays vs weekends)
 - Correlation between step count and health metrics
@@ -37,7 +37,7 @@ The final result is a structured analytical model with one row per day granulari
 
 ## 🧱 Data Model
 
-The dashboard follows a star schema structure:
+The report follows a star schema structure:
 
 - Fact_Activity (daily metrics)
 - Dim_Date (date dimension)
